@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+  }
+ 
+  main {
+    flex: 1 0 auto;
+  }
+
+.row{
+    margin-bottom:0px;
+}
+
+p{
+  font-size:110%;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  color: gray;
+}
+nav{
+  /* background-color: white; */
+}
+
+nav a, nav ul li a{
+  color: rgb(255, 255, 255);
+}
+
+nav .nav-wrapper a{
+  color:rgb(255, 255, 255)
+}
+
+nav .nav-wrapper , nav .nav-content{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.nav-content{
+  line-height: 56px !important;
+}
+
+.section-header{
+  font-weight: bolder;
+}
+
+
+.page-footer{
+  background-color: grey;
+}
+
+
+/* ----------------------------------------- */
+.navbar-fixed{
+  position: absolute;
+}
+.intro{
+  /* background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%); */
+  background-image: -webkit-linear-gradient(-60deg, #fafafa 0%, #e0e0e0 100%);
+  /* background-image: url(../images/2.jpeg); */
+  height: 100vh;
+  min-width: 100%;
+  /* background-repeat: no-repeat; */
+  /* position: absolute; */
+}
+
+.intro-details{
+  position: relative;
+  margin-top: 50%;
+}
+.intro-details>p{
+  font-size: 1.2em;
+}
+
+.intro-card{
+  position: relative;
+  margin-top: 40%;
+}
+
+.myName{
+ font-weight: bolder;
+}
+
+.quote{
+  font-weight: thin;
+  font-size: 160%;
+}
+.role{
+  display: inline;
+  /* font-size: 160%; */
+}
+.intro-card >.card{
+  /* height: 90px; */
+ border-radius:5px;
+ -webkit-box-shadow: 0px 8px 26px 3px rgba(181,181,181,0.36);
+-moz-box-shadow: 0px 8px 26px 3px rgba(181,181,181,0.36);
+box-shadow: 0px 8px 26px 3px rgba(181,181,181,0.36);
+}
+/* ----------------------------------------- */
+
+.AboutMe-intro{
+  margin: 5%;
+}
+.AboutMe .heading{
+  font-weight: bolder;
+}
+
+.AboutMe .p
+{
+  text-align: justify;
+    text-justify: inter-word;
+}
+
+.AboutMe{
+  padding-bottom: 5%;
+}
+.AboutMe .topic{
+  padding-top: 2%;
+}
+.project{
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.project-description{
+  margin-top: 12%;
+  padding: 5%;
+}
+
+.project img{
+  margin-top: 12%;
+  padding: 5%;
+}
