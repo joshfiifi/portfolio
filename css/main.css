@@ -1,6 +1,6 @@
 html{
   font-family: "montserrat", sans-serif;  
-  line-height: 200%;
+  line-height: 1.8em;
 }
 
 body {
@@ -73,14 +73,14 @@ nav .nav-wrapper , nav .nav-content{
 
 .intro-details{
   position: relative;
-  margin-top: 20%;
+  margin-top: 30%;
 }
 .intro-details>p{
   font-size: 1.2em;
 }
 
 .intro h5{
-  line-height: 200%;
+  line-height: 1.8em;
 }
 .intro-card{
   position: relative;
@@ -112,7 +112,7 @@ box-shadow: 0px 8px 26px 3px rgba(181,181,181,0.36);
   margin: 5%;
 }
 .AboutMe .heading{
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .AboutMe .p
