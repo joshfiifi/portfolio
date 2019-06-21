@@ -65,7 +65,7 @@ nav .nav-wrapper , nav .nav-content{
   /* background-image: -webkit-linear-gradient(-60deg, #fafafa 0%, #e0e0e0 100%); */
   /* background-image: url(../images/2.jpeg); */
   /* background-color: rgb(32, 31, 31); */
-  min-height: 80vh;
+  min-height: 100vh;
   min-width: 100%;
   /* background-repeat: no-repeat; */
   /* position: absolute; */
@@ -80,12 +80,12 @@ nav .nav-wrapper , nav .nav-content{
 }
 
 .intro h5{
-  line-height: 1.5em;
+  line-height: 1.3em;
 }
-.intro-card{
+/* .intro-card{
   position: relative;
   margin-top: 40%;
-}
+} */
 
 .myName{
  font-weight: bolder;
@@ -139,4 +139,20 @@ box-shadow: 0px 8px 26px 3px rgba(181,181,181,0.36);
 .project img{
   margin-top: 12%;
   padding: 5%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .intro-details{
+    position: relative;
+    margin-top: 30%;
+  }
+  .intro-details>p{
+    font-size: 8.8em;
+  }
+  
+  .intro h5{
+    /* line-height: 1.3em; */
+    display: none;
+  }
 }
